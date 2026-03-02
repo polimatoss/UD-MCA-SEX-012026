@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Multimídia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+            color: #e94560;
+        }
+        h2 {
+            color: #0f3460;
+            background-color: #e94560;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .media-section {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #16213e;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        .media-section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        audio {
+            width: 100%;
+            margin: 10px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎵 Página de Multimídia 🎬</h1>
+
+    <!-- Vídeo 1 -->
+    <div class="media-section">
+        <h2>🎬 Vídeo 1 - Big Buck Bunny</h2>
+        <p>Curta-metragem de animação criado pela Blender Foundation, disponível gratuitamente.</p>
+        <video width="100%" controls>
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+    <!-- Vídeo 2 -->
+    <div class="media-section">
+        <h2>🎬 Vídeo 2 - Elephant's Dream</h2>
+        <p>Primeiro filme de código aberto do mundo, feito inteiramente com o Blender.</p>
+        <video width="100%" controls>
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+    <!-- Áudio -->
+    <div class="media-section">
+        <h2>🎵 Áudio - Música de Exemplo</h2>
+        <p>Exemplo de áudio embutido em uma página HTML utilizando a tag <code>&lt;audio&gt;</code>.</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+</body>
+</html>
